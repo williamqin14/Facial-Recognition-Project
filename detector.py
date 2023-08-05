@@ -150,10 +150,7 @@ def validate(model: str = "hog", type: str = "file", urls: list = []):
                     image_location=str(filepath.absolute()), model=model
                 )
 
-# recognize_faces("Actor-Ben-Affleck-premiere-AIR-March-2023.jpeg")
-recognize_faces("https://i.ytimg.com/vi/bfC9GWSAQQQ/maxresdefault.jpg", type="url")
 # encode_known_faces()
-# response_urls = YouTubeAPI.get_video_thumbnail_urls("https://www.youtube.com/watch?v=bfC9GWSAQQQ")
-# validate(type="url", urls=response_urls)
-
-# validate(type="url", urls=YouTubeAPI.get_video_thumbnail_urls("https://www.youtube.com/channel/UCijULR2sXLutCRBtW3_WEfA", 3))
+recognize_faces("Dami-test-maxresdefault.jpeg")
+response_urls = YouTubeAPI.get_video_thumbnail_urls("https://www.youtube.com/channel/UCijULR2sXLutCRBtW3_WEfA", n_pages=2)  #Channel: Dreamcatcher Official
+validate(type="url", urls=response_urls)
