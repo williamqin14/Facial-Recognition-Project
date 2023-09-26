@@ -35,7 +35,7 @@ Version 1 of this model uses the facial_recognition library, which utilizes the 
 
  ![dami success](https://github.com/williamqin14/Facial-Recognition-Project/assets/84489685/87e7dd95-85c0-4b1f-b002-acfc66646d2b)
 
-* Model has trouble with odd angle faces and small faces, which is a limitation of the hog model. The hog model was meant for frontal facing profiles with a minimum face size of 80x80 pixels.
+* Model has trouble with odd angle faces and small faces, which is a limitation of the hog model. The hog model was meant for frontal facing profiles with a minimum face size of 80x80 pixels. This is an area of improvement where switching to another model like the dlib CNN dectector will provide more accurate results.
 
 ![side profile and small face exmaple](https://github.com/williamqin14/Facial-Recognition-Project/assets/84489685/fc91166d-e346-4256-ac17-464dbb9bb558)
 
