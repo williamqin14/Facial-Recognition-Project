@@ -2,6 +2,8 @@
 
 # About 
 
+This is a small project that I made while learning about machine learning and facial recognition technologies.
+
 An API working with facial recognition ML libraries to train and recognize custom faces on YouTube thumbnails. The program can be trained to recognize faces that can later allow for things like filtering based on thumbnail results. 
 
 The program runs by calling the YouTube API for information, parsing the response and storing thumbnails in a list. The thumbnails are then converted into image format and immediately fed into the model for processing. After drawing boxes around identified faces and labeling them, the results are displayed in a window. 
